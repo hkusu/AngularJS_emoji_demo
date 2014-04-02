@@ -1,0 +1,11 @@
+<div class="container" ng-controller="MainCtrl">
+
+    people&nbsp;&nbsp;&nbsp;<a href="#nature">nature</a>&nbsp;&nbsp;&nbsp;<a href="#objects">objects</a>&nbsp;&nbsp;&nbsp;<a href="#places">places</a>&nbsp;&nbsp;&nbsp;<a href="#symbols">symbols</a>
+    <br>
+    <br>
+    <span ng-repeat="pe in people" ng-bind-html="pe | emoji"></span>
+    <br>
+    <br>
+
+</div>
+

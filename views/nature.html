@@ -1,0 +1,10 @@
+<div class="container" ng-controller="MainCtrl">
+
+    <a href="#people">people</a>&nbsp;&nbsp;&nbsp;nature&nbsp;&nbsp;&nbsp;<a href="#objects">objects</a>&nbsp;&nbsp;&nbsp;<a href="#places">places</a>&nbsp;&nbsp;&nbsp;<a href="#symbols">symbols</a>
+    <br>
+    <br>
+    <span ng-repeat="na in nature" ng-bind-html="na | emoji"</span>
+    <br>
+    <br>
+
+</div>

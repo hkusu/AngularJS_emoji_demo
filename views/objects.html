@@ -1,0 +1,10 @@
+<div class="container" ng-controller="MainCtrl">
+
+    <a href="#people">people</a>&nbsp;&nbsp;&nbsp;<a href="#nature">nature</a>&nbsp;&nbsp;&nbsp;objects&nbsp;&nbsp;&nbsp;<a href="#places">places</a>&nbsp;&nbsp;&nbsp;<a href="#symbols">symbols</a>
+    <br>
+    <br>
+    <span ng-repeat="ob in objects" ng-bind-html="ob | emoji"</span>
+    <br>
+    <br>
+
+</div>
